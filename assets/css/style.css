@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #75E6DA;
+}
+
+.container {
+    background-color: #fff;
+    margin: 5% auto;
+    min-height: 75vh;
+    max-width: 960px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 8px 24px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 8px 24px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 8px 24px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.card-header {
+    font-family: 'Rubik', sans-serif;
+    color: #05445E;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+.card-header hr {
+    height: 3px;
+    width: 30%;
+    margin: 8px auto;
+    background-color: #05445E;
+}
+
+.form {
+    width: 480px;
+    margin: 48px auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form p {
+    margin: 8px;
+    font-size: 24px;
+}
+
+.form select{
+    width: 240px;
+    border-radius: 144px;
+    height: 32px;
+    padding: 0 2%;
+}
+
+.btn-group{
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+}
+
+.btn {
+    border: none;
+    font-weight: bolder;
+    color: #fff;
+    background-color: #189AB4;
+    margin-top: 50px;
+    padding: 10px 30px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.btn-back{
+    border: none;
+    font-weight: bolder;
+    color: #fff;
+    background-color: rgb(180, 24, 63);
+    margin-top: 50px;
+    padding: 10px 30px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+#date{
+    border: 1px solid black;
+    width: 240px;
+    border-radius: 144px;
+    height: 32px;
+    padding: 0 2%;
+    margin-bottom: 32px;
+}
+
+.time{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 10px;
+    width: 240px;
+    margin: 0 auto;
+}
+
+.time label {
+    display: inline-block;
+    border: solid 1px black;
+    padding: 2px 8px;
+    border-radius: 24px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  input[type="radio"]:checked + label {
+    background-color: #189AB4;
+    color: white;
+  }
