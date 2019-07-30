@@ -25,6 +25,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tanggal</title>
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
