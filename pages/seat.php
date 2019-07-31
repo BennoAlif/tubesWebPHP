@@ -324,6 +324,38 @@
                 harga = 200000
             } else if (from.value === "Yogyakarta" && to.value === "Bandung" && kelas.value === "Business") {
                 harga = 270000
+            } else if (from.value === "Yogyakarta" && to.value === "Bandung" && kelas.value === "Executive"){
+                harga = 310000
+            } else if (from.value === "Yogyakarta" && to.value === "Jakarta" && kelas.value === "Economy"){
+                harga = 220000
+            } else if (from.value === "Yogyakarta" && to.value === "Jakarta" && kelas.value === "Business"){
+                harga = 280000
+            } else if (from.value === "Yogyakarta" && to.value === "Jakarta" && kelas.value === "Executive"){
+                harga = 320000
+            } else if (from.value === "Bandung" && to.value === "Yogyakarta" && kelas.value === "Economy"){
+                harga = 200000
+            } else if (from.value === "Bandung" && to.value === "Yogyakarta" && kelas.value === "Business"){
+                harga = 270000
+            } else if (from.value === "Bandung" && to.value === "Yogyakarta" && kelas.value === "Executive"){
+                harga = 310000
+            } else if (from.value === "Bandung" && to.value === "Jakarta" && kelas.value === "Economy"){
+                harga = 110000
+            } else if (from.value === "Bandung" && to.value === "Jakarta" && kelas.value === "Business"){
+                harga = 130000
+            } else if (from.value === "Bandung" && to.value === "Jakarta" && kelas.value === "Executive"){
+                harga = 150000
+            } else if (from.value === "Jakarta" && to.value === "Yogyakarta" && kelas.value === "Economy"){
+                harga = 220000
+            } else if (from.value === "Jakarta" && to.value === "Yogyakarta" && kelas.value === "Business"){
+                harga = 280000
+            } else if (from.value === "Jakarta" && to.value === "Yogyakarta" && kelas.value === "Executive"){
+                harga = 320000
+            } else if (from.value === "Jakarta" && to.value === "Bandung" && kelas.value === "Economy"){
+                harga = 110000
+            } else if (from.value === "Jakarta" && to.value === "Bandung" && kelas.value === "Business"){
+                harga = 130000
+            } else {
+                harga = 150000
             }
 
             console.log(harga);

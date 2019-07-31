@@ -61,36 +61,52 @@
 
                 <div class="time">
                     <span>
-                        <input type="radio" name="time" value="12:30" id="waktu1">
-                        <label for="waktu1">12:30</label>
+                        <input type="radio" name="time" value="02:57" id="waktu1">
+                        <label for="waktu1">02:57</label>
                     </span>
                     <span>
-                        <input type="radio" name="time" value="12:00" id="waktu2">
-                        <label for="waktu2">12:30</label>
+                        <input type="radio" name="time" value="03:25" id="waktu2">
+                        <label for="waktu2">03:25</label>
                     </span>
                     <span>
-                        <input type="radio" name="time" value="13:30" id="waktu3">
-                        <label for="waktu3">12:30</label>
+                        <input type="radio" name="time" value="04:15" id="waktu3">
+                        <label for="waktu3">04:15</label>
                     </span>
                     <span>
-                        <input type="radio" name="time" value="13:00" id="waktu4">
-                        <label for="waktu4">12:30</label>
+                        <input type="radio" name="time" value="07:48" id="waktu4">
+                        <label for="waktu4">07:48</label>
                     </span>
                     <span>
-                        <input type="radio" name="time" value="12:30" id="waktu5">
-                        <label for="waktu5">12:30</label>
+                        <input type="radio" name="time" value="08:30" id="waktu5">
+                        <label for="waktu5">08:30</label>
                     </span>
                     <span>
-                        <input type="radio" name="time" value="12:00" id="waktu6">
+                        <input type="radio" name="time" value="12:30" id="waktu6">
                         <label for="waktu6">12:30</label>
                     </span>
                     <span>
-                        <input type="radio" name="time" value="13:30" id="waktu7">
-                        <label for="waktu7">12:30</label>
+                        <input type="radio" name="time" value="15:12" id="waktu7">
+                        <label for="waktu7">15:12</label>
                     </span>
                     <span>
-                        <input type="radio" name="time" value="13:00" id="waktu8">
-                        <label for="waktu8">12:30</label>
+                        <input type="radio" name="time" value="17:02" id="waktu8">
+                        <label for="waktu8">17:02</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="time" value="19:07" id="waktu9">
+                        <label for="waktu9">19:07</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="time" value="20:08" id="waktu10">
+                        <label for="waktu10">20:08</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="time" value="21:25" id="waktu11">
+                        <label for="waktu11">21:25</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="time" value="23:30" id="waktu12">
+                        <label for="waktu12">23:30</label>
                     </span>
                 </div>
 
