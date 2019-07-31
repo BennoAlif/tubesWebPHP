@@ -5,6 +5,7 @@
         $to = $_POST['to'];
         $date = $_POST['date'];
         $time = $_POST['time'];
+        $class = $_POST['class'];
     }
 ?>
 
@@ -31,9 +32,10 @@
             <form action="payment.php" method="POST" name="paymentForm">
 
                 <input type="text" name="from" id="from" value="<?php echo $from; ?>" hidden>
-                <input type="text" name="to" id="from" value="<?php echo $to; ?>" hidden>
-                <input type="text" name="date" id="from" value="<?php echo $date; ?>" hidden>
-                <input type="text" name="time" id="from" value="<?php echo $time; ?>" hidden>
+                <input type="text" name="to" id="to" value="<?php echo $to; ?>" hidden>
+                <input type="text" name="date" id="date" value="<?php echo $date; ?>" hidden>
+                <input type="text" name="time" id="time" value="<?php echo $time; ?>" hidden>
+                <input type="text" name="class" id="class" value="<?php echo $class; ?>" hidden>
 
                 <div class="seats">
                     <div class="seat">
@@ -199,99 +201,99 @@
                         </span>
                     </div>
                     <div class="inputName">
-                        <input type="text" name="NA1" id="na1" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA1" id="na1" style="display:none">
                         <label style="display:none" for="na1" id="la1">Nama</label>
-                        <input type="text" name="NA2" id="na2" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA2" id="na2" style="display:none">
                         <label style="display:none" for="na2" id="la1">Nama</label>
-                        <input type="text" name="NA3" id="na3" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA3" id="na3" style="display:none">
                         <label style="display:none" for="na3" id="la1">Nama</label>
-                        <input type="text" name="NA4" id="na4" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA4" id="na4" style="display:none">
                         <label style="display:none" for="na4" id="la1">Nama</label>
 
-                        <input type="text" name="NA5" id="na5" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA5" id="na5" style="display:none">
                         <label style="display:none" for="na5" id="la1">Nama</label>
-                        <input type="text" name="NA6" id="na6" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA6" id="na6" style="display:none">
                         <label style="display:none" for="na6" id="la1">Nama</label>
-                        <input type="text" name="NA7" id="na7" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA7" id="na7" style="display:none">
                         <label style="display:none" for="na7" id="la1">Nama</label>
-                        <input type="text" name="NA8" id="na8" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA8" id="na8" style="display:none">
                         <label style="display:none" for="na8" id="la1">Nama</label>
 
-                        <input type="text" name="NA9" id="na9" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA9" id="na9" style="display:none">
                         <label style="display:none" for="na9" id="la1">Nama</label>
-                        <input type="text" name="NA10" id="na10" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA10" id="na10" style="display:none">
                         <label style="display:none" for="na10" id="la1">Nama</label>
-                        <input type="text" name="NA11" id="na11" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA11" id="na11" style="display:none">
                         <label style="display:none" for="na11" id="la1">Nama</label>
-                        <input type="text" name="NA12" id="na12" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA12" id="na12" style="display:none">
                         <label style="display:none" for="na12" id="la1">Nama</label>
 
-                        <input type="text" name="NA13" id="na13" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA13" id="na13" style="display:none">
                         <label style="display:none" for="na13" id="la1">Nama</label>
-                        <input type="text" name="NA14" id="na14" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA14" id="na14" style="display:none">
                         <label style="display:none" for="na14" id="la1">Nama</label>
-                        <input type="text" name="NA15" id="na15" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA15" id="na15" style="display:none">
                         <label style="display:none" for="na15" id="la1">Nama</label>
-                        <input type="text" name="NA16" id="na16" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA16" id="na16" style="display:none">
                         <label style="display:none" for="na16" id="la1">Nama</label>
 
-                        <input type="text" name="NA17" id="na17" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA17" id="na17" style="display:none">
                         <label style="display:none" for="na17" id="la1">Nama</label>
-                        <input type="text" name="NA18" id="na18" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA18" id="na18" style="display:none">
                         <label style="display:none" for="na18" id="la1">Nama</label>
-                        <input type="text" name="NA19" id="na19" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA19" id="na19" style="display:none">
                         <label style="display:none" for="na19" id="la1">Nama</label>
-                        <input type="text" name="NA20" id="na20" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA20" id="na20" style="display:none">
                         <label style="display:none" for="na4" id="la1">Nama</label>
 
-                        <input type="text" name="NA21" id="na21" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA21" id="na21" style="display:none">
                         <label style="display:none" for="na21" id="la1">Nama</label>
-                        <input type="text" name="NA22" id="na22" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA22" id="na22" style="display:none">
                         <label style="display:none" for="na22" id="la1">Nama</label>
-                        <input type="text" name="NA23" id="na23" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA23" id="na23" style="display:none">
                         <label style="display:none" for="na23" id="la1">Nama</label>
-                        <input type="text" name="NA24" id="na24" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA24" id="na24" style="display:none">
                         <label style="display:none" for="na24" id="la1">Nama</label>
 
-                        <input type="text" name="NA25" id="na25" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA25" id="na25" style="display:none">
                         <label style="display:none" for="na25" id="la1">Nama</label>
-                        <input type="text" name="NA26" id="na26" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA26" id="na26" style="display:none">
                         <label style="display:none" for="na26" id="la1">Nama</label>
-                        <input type="text" name="NA27" id="na27" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA27" id="na27" style="display:none">
                         <label style="display:none" for="na27" id="la1">Nama</label>
-                        <input type="text" name="NA28" id="na28" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA28" id="na28" style="display:none">
                         <label style="display:none" for="na28" id="la1">Nama</label>
 
-                        <input type="text" name="NA29" id="na29" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA29" id="na29" style="display:none">
                         <label style="display:none" for="na29" id="la1">Nama</label>
-                        <input type="text" name="NA30" id="na30" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA30" id="na30" style="display:none">
                         <label style="display:none" for="na30" id="la1">Nama</label>
-                        <input type="text" name="NA31" id="na31" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA31" id="na31" style="display:none">
                         <label style="display:none" for="na31" id="la1">Nama</label>
-                        <input type="text" name="NA32" id="na32" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA32" id="na32" style="display:none">
                         <label style="display:none" for="na32" id="la1">Nama</label>
 
-                        <input type="text" name="NA33" id="na33" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA33" id="na33" style="display:none">
                         <label style="display:none" for="na33" id="la1">Nama</label>
-                        <input type="text" name="NA34" id="na34" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA34" id="na34" style="display:none">
                         <label style="display:none" for="na34" id="la1">Nama</label>
-                        <input type="text" name="NA35" id="na35" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA35" id="na35" style="display:none">
                         <label style="display:none" for="na35" id="la1">Nama</label>
-                        <input type="text" name="NA36" id="na36" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA36" id="na36" style="display:none">
                         <label style="display:none" for="na36" id="la1">Nama</label>
 
-                        <input type="text" name="NA37" id="na37" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA37" id="na37" style="display:none">
                         <label style="display:none" for="na37" id="la1">Nama</label>
-                        <input type="text" name="NA38" id="na38" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA38" id="na38" style="display:none">
                         <label style="display:none" for="na38" id="la1">Nama</label>
-                        <input type="text" name="NA39" id="na39" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA39" id="na39" style="display:none">
                         <label style="display:none" for="na39" id="la1">Nama</label>
-                        <input type="text" name="NA40" id="na40" style="display:none">
+                        <input type="text" placeholder="Fill passanger name" name="NA40" id="na40" style="display:none">
                         <label style="display:none" for="na40" id="la1">Nama</label>
                     </div>
                 </div>
                 <p>Total</p>
-                <input type="text" name="total" id="total" require>
+                <input type="text" name="total" id="total" value="0" require>
                 <div class="btn-group">
                     <p>
                         <input class="btn-back" type="button" value="Back" onclick="goBack()">
@@ -303,19 +305,36 @@
     </div>
 
     <script>
-        var total
+        var total;
         total = 0;
 
+        let harga;
+
+
+        
         function price(e) {
+            let from = document.getElementById("from");
+            let to = document.getElementById("to");
+            let kelas = document.getElementById("class");
+
             let nama = document.getElementById("n" + e.id);
             let label = document.getElementById("l" + e.id);
 
+            if (from.value === "Yogyakarta" && to.value === "Bandung" && kelas.value === "Economy") {
+                harga = 200000
+            } else if (from.value === "Yogyakarta" && to.value === "Bandung" && kelas.value === "Business") {
+                harga = 270000
+            }
+
+            console.log(harga);
+            
+
             if (e.checked) {
                 nama.style.display = "inline-block"
-                total = total + 150000
+                total = total + harga
             } else {
                 nama.style.display = "none"
-                total = total - 150000
+                total = total - harga
             }
             let inputTotal = document.getElementById('total');
             inputTotal.value = total

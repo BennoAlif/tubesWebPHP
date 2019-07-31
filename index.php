@@ -38,7 +38,7 @@
         </div>
     </div>
     <script>
-        let listKota = ["Subang", "Jakarta", "Bandung"];
+        let listKota = ["Yogyakarta", "Jakarta", "Bandung"];
         let kotaAsal = document.getElementById("kota1");
         let kotaTujuan = document.getElementById("kota2");
         let kotas = kota1.children;

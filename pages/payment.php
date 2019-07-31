@@ -5,6 +5,7 @@
         $total = $_POST['total'];
         $date = $_POST['date'];
         $time = $_POST['time'];
+        $class = $_POST['class'];
         $NA1 = $_POST['NA1'];
         $NA2 = $_POST['NA2'];
         $NA3 = $_POST['NA3'];
@@ -112,6 +113,7 @@
                     <p><?php echo $NA40 ?></p>
                 </div>
                 <div class="destination">
+                    <h3>Class : <?php echo $class; ?></h3>
                     <h3>Destination :</h3>
                     <h4>From</h4>
                     <p><?php echo $from ?></p>

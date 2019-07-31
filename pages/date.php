@@ -39,6 +39,22 @@
             <form action="seat.php" method="post">
                 <input type="text" name="from" value="<?php echo $from; ?>" hidden>
                 <input type="text" name="to" value="<?php echo $to; ?>" hidden>
+                <p>Choose class</p>
+                <div class="time">
+                    <span>
+                        <input type="radio" name="class" value="Economy" id="economy">
+                        <label for="economy">Economy</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="class" value="Business" id="business">
+                        <label for="business">Business</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="class" value="Executive" id="executive">
+                        <label for="executive">Executive</label>
+                    </span>
+                </div>
+
                 <p>
                     <input type="date" name="date" id="date" require>
                 </p>
@@ -77,7 +93,7 @@
                         <label for="waktu8">12:30</label>
                     </span>
                 </div>
-                
+
                 <div class="btn-group">
                     <p>
                         <input class="btn-back" type="button" value="Back" onclick="goBack()">
