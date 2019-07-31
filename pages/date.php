@@ -43,7 +43,7 @@
                     <input type="date" name="date" id="date" require>
                 </p>
 
-                <div class="time">
+                <div class="time" id="timeContainer">
                     <span>
                         <input type="radio" name="time" value="12:30" id="waktu1">
                         <label for="waktu1">12:30</label>
@@ -81,7 +81,7 @@
                 <div class="btn-group">
                     <p>
                         <input class="btn-back" type="button" value="Back" onclick="goBack()">
-                        <input class="btn" type="submit" value="Next" name="submit">
+                        <input class="btn" id="btnLanjut"type="submit" value="Next" name="submit" disabled>
                     </p>
                 </div>
             </form>
@@ -89,6 +89,17 @@
     </div>
 
     <script>
+        let timeContainer=document.getElementById("timeContainer")
+        let btnLanjut = document.getElementById("btnLanjut");
+        
+        timeContainer.addEventListener("input", ()=>{
+                btnLanjut.disabled = false
+        });
+        window.onload = ()=>{
+            document.getElementById('date').valueAsDate = new Date();
+
+
+        }
         function goBack() {
             window.history.back();
         }

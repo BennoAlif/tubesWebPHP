@@ -71,6 +71,9 @@ body {
     border-radius: 100px;
     cursor: pointer;
 }
+.btn:disabled{
+    background-color : #75E6DA;
+}
 
 
 .print {
